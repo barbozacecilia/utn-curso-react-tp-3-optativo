@@ -1,0 +1,26 @@
+.mainContainer {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #0ed7de;
+}
+.paragraph {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: #ec05e6;
+
+}
+
+.item {
+  justify-content: space-between;
+  margin: 5vh;
+  background-color: cadetblue;
+}
+
