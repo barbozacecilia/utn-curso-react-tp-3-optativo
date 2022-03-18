@@ -15,12 +15,5 @@
   justify-content: center;
   font-size: calc(5px + 2vmin);
   color: #ec05e6;
-
-}
-
-.item {
-  justify-content: space-between;
-  margin: 5vh;
-  background-color: cadetblue;
 }
 

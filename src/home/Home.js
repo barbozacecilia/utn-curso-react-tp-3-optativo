@@ -1,15 +1,12 @@
 import React, {Component} from "react";
 import './HomeStyles.css';
-import ProductDetails from "./Item";
+import ProductDetails from "../product-details/ProductDetails";
 
 class Home extends Component {
   render () {
     return(
         <div className="mainContainer">
-        <h1 >Material didáctico</h1>
-          <div className="paragraph">
-            <p> Juego para horas libres </p>
-          </div>
+        <h1 >Juegos</h1>
           <ProductDetails/>
         </div>
     )
