@@ -6,6 +6,8 @@ import images from "../assets/images";
 class ProductDetails extends Component{
     render() {
         return (
+            /*Fragments let you group a list of children without adding extra nodes to the DOM. <React.Fragment> or the shorter syntax you can use for declaring fragments is <> and </> . It doesn't support keys or attributes*/
+            <>
                 <div className="productDetails">
                         <div className="info">
                             <h2> Nombre: Clue</h2>
@@ -16,6 +18,7 @@ class ProductDetails extends Component{
                         </div>
                         <img  src={images.imagen1} alt="imagen de juego"  />
                 </div>
+            </>
         )
     }
 }
