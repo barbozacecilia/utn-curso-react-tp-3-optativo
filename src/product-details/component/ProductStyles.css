@@ -1,0 +1,48 @@
+.info {
+  padding: 1vh;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  min-height: 450px;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-size: calc(10px + 2vmin) ;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 0 0 2vh;
+  font-family: Droid Sans, serif;
+}
+
+li {
+  font-size: calc(6px + 1.5vmin);
+  text-align: left;
+  color: #282c34;
+  list-style-type: square;
+}
+
+
+.imgContainer {
+  padding: 2vh;
+  margin: 1vh;
+  color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bcccae;
+  width: 80%;
+}
+
+.productImage{
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  object-position: center top;
+}
+
+.info:hover{
+  border: 2px solid #DEB168;
+  cursor: pointer;
+}
+

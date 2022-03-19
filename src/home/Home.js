@@ -4,10 +4,13 @@ import ProductDetails from "../product-details/ProductDetails";
 
 class Home extends Component {
   render () {
+
     return(
         <div className="mainContainer">
-        <h1 >Juegos</h1>
-          <ProductDetails/>
+            <hr/>
+            <h1 >Ropa</h1>
+            <ProductDetails/>
+            <hr/>
         </div>
     )
   }
