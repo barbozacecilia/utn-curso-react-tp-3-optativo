@@ -40,7 +40,23 @@ class ProductDetails extends Component{
                     code: "1233",
                     quantity: "40",
                     precio: '4154',
-                }
+                },
+                {
+                    imagen: images.imagen1,
+                    name: "Remera",
+                    description: "100% algodón",
+                    code: "1212",
+                    quantity: " 510",
+                    precio: '4500',
+                },
+                {
+                    imagen: images.imagen2,
+                    name: "Pantalón",
+                    description: "jean",
+                    code: "12313",
+                    quantity: "50",
+                    precio: '4800',
+                },
             ]
         }
     }
