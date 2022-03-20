@@ -18,7 +18,7 @@ class Product extends Component {
                     <li>{this.props.description || ""}</li>
                     <li>{'Precio: $ '+ this.props.precio}</li>
                     <li>{'Código: ' + this.props.code}</li>
-                    <li>{ 'Cantidad disponible: ' + this.props.quantity}</li>
+                    <li>{ 'Cantidad: ' + this.props.quantity}</li>
                 </div>
             </>
         )

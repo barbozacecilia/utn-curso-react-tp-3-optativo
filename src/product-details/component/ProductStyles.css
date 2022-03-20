@@ -16,7 +16,7 @@ h2 {
 }
 
 li {
-  font-size: calc(6px + 1.5vmin);
+  font-size: calc(5px + 1.5vmin);
   text-align: left;
   color: #282c34;
   list-style-type: square;
@@ -30,7 +30,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #bcccae;
+  background-color: #dceccf;
   width: 80%;
 }
 
