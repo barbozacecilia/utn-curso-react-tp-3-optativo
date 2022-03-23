@@ -90,7 +90,7 @@ class ProductDetails extends Component{
                 <div className="mainContainerProducts">
                     <h2> Colección otoño</h2>
                     <button onClick={this.promoClick}>Productos en Promoción</button>
-                    <button onClick={this.setState}>Ver todos los productos</button>
+                    <button onClick={this.state.listProducts} >Ver todos los productos</button>
                     <div className={"productsContainer"}>
                  {this.state.listProducts.map(listProduct=> (
                         <Product
